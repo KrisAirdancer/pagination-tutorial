@@ -1,0 +1,9 @@
+// This file requires the VSCode extension "REST Client"
+// REST Client allows us to make REST calls easily from this file.
+// Click the "Send Request" button above the request to send it. This will open a new window that displays the response.
+
+// This request returns all of the user objects. Only works if the API in server.js is setup to accept this path. And it isn't.
+# GET http://localhost:3000/users
+
+// This request returns page 1 with 5 users on that page
+GET http://localhost:3000/users?page=1&limit=5
